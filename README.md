@@ -1,15 +1,29 @@
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,100:00A67E&height=120&section=header&text=IT%20Challenge%20from%2044!&fontSize=40&fontAlignY=40"/>
+</p>
+
 <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=2E9EF7&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B+I'm+Daisuke+Ikeda;44%E6%AD%B3%E3%81%8B%E3%82%89IT%E6%A5%AD%E7%95%8C%E3%81%AB%E6%8C%91%E6%88%A6%E4%B8%AD" alt="Typing SVG" />
 </h1>
 
 <p align="center">
+  <b>「44歳からのIT挑戦」<br>データ分析・AI・自動化で未来を切り拓く</b>
+</p>
+
+
+<p align="center">
   <img src="https://img.shields.io/badge/%F0%9F%9F%A2%20Status-Seeking%20Job%20Opportunities-success?style=for-the-badge" alt="Status"/>
   <img src="https://img.shields.io/badge/Age-44-blue?style=for-the-badge" alt="Age"/>
   <img src="https://img.shields.io/badge/Focus-Data%20Analysis%20%7C%20ML%20%7C%20Automation-orange?style=for-the-badge" alt="Focus"/>
+  <img src="https://img.shields.io/badge/Challenge-IT%20from%2044!-purple?style=for-the-badge" alt="Challenge"/>
 </p>
+
 
 <p align="center">
   <b>📊 データ分析 | 🤖 機械学習・AI | ⚡ 業務効率化</b>
+  <br>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=1500&color=00A67E&center=true&vCenter=true&width=600&lines=Never+too+late+to+start!;AI+%E3%81%A7%E6%9C%AA%E6%9D%A5%E3%82%92%E5%88%87%E3%82%8A%E6%8B%93%E3%81%8F"/>
 </p>
 
 ---
@@ -220,7 +234,14 @@ gantt
 
 ---
 
+
 ## 🎯 Current Goals
+
+<p align="center">
+  <img src="https://progress-bar.dev/25/?title=O'Reilly%20Books"/>
+  <img src="https://progress-bar.dev/40/?title=ML%20Portfolio"/>
+  <img src="https://progress-bar.dev/10/?title=Kaggle%20Challenge"/>
+</p>
 
 - [ ] オライリー技術書4冊の完読
 - [ ] 機械学習プロジェクトのポートフォリオ拡充
@@ -255,7 +276,8 @@ gantt
   <img src="https://komarev.com/ghpvc/?username=D1424-da&color=blueviolet&style=for-the-badge" alt="Profile views"/>
 </p>
 
-<h3 align="center">💡 "44歳からのIT挑戦、継続中です"</h3>
+
+<h3 align="center">💡 "44歳からのIT挑戦、継続中です"<br>Never too late to start!</h3>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
