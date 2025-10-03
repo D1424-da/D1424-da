@@ -1,30 +1,37 @@
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,100:00A67E&height=120&section=header&text=IT%20Challenge%20from%2044!&fontSize=40&fontAlignY=40"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B6B,50:4ECDC4,100:45B7D1&height=120&section=header&text=44%E6%AD%B3%E3%80%81%E4%BB%8A%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E6%8C%91%E6%88%A6&fontSize=35&fontAlignY=40"/>
 </p>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=2E9EF7&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B+I'm+Daisuke+Ikeda;44%E6%AD%B3%E3%81%8B%E3%82%89IT%E6%A5%AD%E7%95%8C%E3%81%AB%E6%8C%91%E6%88%A6%E4%B8%AD" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=FF6B6B&center=true&vCenter=true&width=940&lines=%F0%9F%94%A5+44%E6%AD%B3%E3%80%81%E6%9C%AA%E7%B5%8C%E9%A8%93%E3%81%8B%E3%82%89IT%E6%A5%AD%E7%95%8C%E3%81%B8;%E2%9C%A8+%E4%BA%BA%E7%94%9F%E3%82%92%E5%A4%89%E3%81%88%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E5%86%8D%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88;%F0%9F%92%AA+%E8%AB%A6%E3%82%81%E3%81%AA%E3%81%84%E5%BF%83%E3%81%A7%E5%AD%A6%E3%81%B3%E7%B6%9A%E3%81%91%E3%82%8B" alt="Typing SVG" />
 </h1>
 
 <p align="center">
-  <b>「44歳からのIT挑戦」<br>データ分析・AI・自動化で未来を切り拓く</b>
+  <b>🔥「遅すぎることはない」を証明したい🔥</b><br>
+  <sub>24年間の実務経験 × プログラミングで新しい価値を創造する</sub>
 </p>
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/%F0%9F%9F%A2%20Status-Seeking%20Job%20Opportunities-success?style=for-the-badge" alt="Status"/>
-  <img src="https://img.shields.io/badge/Age-44-blue?style=for-the-badge" alt="Age"/>
-  <img src="https://img.shields.io/badge/Focus-Data%20Analysis%20%7C%20ML%20%7C%20Automation-orange?style=for-the-badge" alt="Focus"/>
-  <img src="https://img.shields.io/badge/Challenge-IT%20from%2044!-purple?style=for-the-badge" alt="Challenge"/>
+  <img src="https://img.shields.io/badge/%F0%9F%94%A5%20Status-IT%E6%A5%AD%E7%95%8C%E3%81%B8%E6%8C%91%E6%88%A6%E4%B8%AD-red?style=for-the-badge" alt="Status"/>
+  <img src="https://img.shields.io/badge/%F0%9F%8E%AF%20Age-44%E6%AD%B3%E6%9C%AA%E7%B5%8C%E9%A8%93-blue?style=for-the-badge" alt="Age"/>
+  <img src="https://img.shields.io/badge/%E2%9A%A1%20Dream-%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88-orange?style=for-the-badge" alt="Dream"/>
+  <img src="https://img.shields.io/badge/%F0%9F%92%AA%20Mindset-%E8%AB%A6%E3%82%81%E3%81%AA%E3%81%84-purple?style=for-the-badge" alt="Mindset"/>
 </p>
 
 
-<p align="center">
-  <b>📊 データ分析 | 🤖 機械学習・AI | ⚡ 業務効率化</b>
-  <br>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=1500&color=00A67E&center=true&vCenter=true&width=600&lines=Never+too+late+to+start!;AI+%E3%81%A7%E6%9C%AA%E6%9D%A5%E3%82%92%E5%88%87%E3%82%8A%E6%8B%93%E3%81%8F"/>
-</p>
+<div align="center">
+  <h2>� なぜ44歳でIT業界を選んだのか？ 🔥</h2>
+  <blockquote>
+    <p><strong>「人生は一度きり。後悔するより挑戦したい」</strong></p>
+    <p>24年間、様々な業界で働いてきましたが、<br>
+    これからの時代に本当に価値を生み出せるのは<strong>テクノロジー</strong>だと確信しました。</p>
+    <p>年齢は関係ない。<strong>今</strong>がスタートライン。</p>
+  </blockquote>
+  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=FF6B6B&center=true&vCenter=true&width=800&lines=%F0%9F%94%A5+44%E6%AD%B3%E3%81%8B%E3%82%89%E3%81%AE%E6%8C%91%E6%88%A6%E3%80%81%E7%B5%B6%E5%AF%BE%E3%81%AB%E8%AB%A6%E3%82%81%E3%81%AA%E3%81%84;%E2%9C%A8+%E6%AF%8E%E6%97%A520%E6%99%82%E9%96%93%E3%80%81%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%81%AB%E6%B2%A1%E9%A0%AD;%F0%9F%9A%80+%E6%9C%AA%E7%B5%8C%E9%A8%93%E3%81%A0%E3%81%8B%E3%82%89%E3%81%93%E3%81%9D%E3%80%81%E5%BF%85%E6%AD%BB%E3%81%AB%E5%AD%A6%E3%81%B6"/>
+</div>
 
 ---
 
@@ -75,9 +82,23 @@
 
 ---
 
-## 👨‍💻 About Me
+## � 44歳未経験からのIT挑戦ストーリー
 
-24年間にわたり測量業・営業・自営業など多様な業界で実務経験を積み、現在は**公共職業訓練（2025年6月〜12月）**にてプログラミング技術を習得中です。
+### � なぜ今、プログラミングなのか？
+
+> **「このままでいいのか？」** - 43歳の時、ふと立ち止まって考えました。
+
+24年間、測量業・営業・自営業と様々な分野で働いてきましたが、<br>
+デジタル化が進む世界で、**本当に価値を生み出せる人間になりたい**と強く思ったのです。
+
+### 🚀 未経験だからこその覚悟
+
+- 🔥 **休日20時間連続コーディング** - 体力的にきつくても、楽しくて止められない
+- 📚 **16冊の技術書を並行学習** - 基礎から応用まで、妥協しない学習姿勢
+- 💪 **公共職業訓練で再スタート** - プライドを捨てて、ゼロから学び直す決意
+- ⚡ **生成AI時代だからこそ** - 「なぜこのコードが必要なのか」を理解しながら学習
+
+**年齢は言い訳にしない。むしろ、これまでの経験を活かしたエンジニアになる。**
 
 ### 💼 これまでの経験
 
@@ -88,12 +109,18 @@
 | 📈 **マネジメント** | グループ9店舗中、売上伸び率1位達成 |
 | 💼 **起業経験** | 古着リサイクルショップ経営（3年間） |
 
-### 💡 プログラミング学習への情熱
+### 💡 44歳の学習スタイル - 「必死さ」が違う
 
-- 🔥 休日には**20時間連続でコードを書き続ける**ほど没頭
-- 🤖 生成AIを活用しながら「なぜこのコードが必要か」を理解しながら学習
-- 📚 理論と実践の両方を重視した学習スタイル
-- 🎯 **関心分野**: データ分析 | 機械学習 | 業務効率化 | AI活用
+**同世代が安定を求める中、私は変化を選びました。**
+
+- 🔥 **朝4時起床、夜中まで学習** - 限られた時間だからこそ、1分1秒を無駄にしない
+- 😅 **家族からの「大丈夫？」の心配** - でも理解してくれる家族に感謝
+- 🤖 **AI時代の学習法** - ChatGPTやCopilotを使いながらも、「なぜ？」を徹底追求
+- � **失敗を恐れない** - 44歳で失うものは何もない。挑戦するのみ
+- 🎯 **目標は明確** - データサイエンティストとして、企業の課題を解決したい
+
+> **「若い人には時間がある。でも私には経験がある。」**<br>
+> この経験値とプログラミングスキルを掛け合わせれば、必ず価値を生み出せる。
 
 ---
 
@@ -251,12 +278,24 @@ gantt
 
 ---
 
-## 📫 Let's Connect!
+## � 44歳未経験、でも本気です！
 
-<p align="center">
-  現在、<b>転職活動中</b>です。<br>
-  データ分析・機械学習・業務効率化の分野でのご縁をお待ちしております。
-</p>
+<div align="center">
+  <h3>💼 「一緒に働かせてください」</h3>
+  
+  <p><strong>私は44歳、プログラミング未経験です。</strong><br>
+  でも、<em>これまでの24年間の実務経験</em>と<em>必死に学んでいる技術</em>で、<br>
+  必ず企業のお役に立てると確信しています。</p>
+  
+  <blockquote>
+    <p>「若い人材が欲しい」という企業もあるでしょう。<br>
+    でも、<strong>経験値 × 情熱 × 技術力</strong>を求める企業なら、<br>
+    私は絶対に貢献できます。</p>
+  </blockquote>
+  
+  <p>🔥 <strong>データ分析・機械学習・業務効率化</strong>の分野で、<br>
+  一緒に価値を生み出してください！</p>
+</div>
 
 <p align="center">
   <a href="https://github.com/D1424-da">
@@ -277,8 +316,23 @@ gantt
 </p>
 
 
-<h3 align="center">💡 "44歳からのIT挑戦、継続中です"<br>Never too late to start!</h3>
+<div align="center">
+  <h2>� 44歳未経験からのメッセージ 🔥</h2>
+  
+  <blockquote>
+    <h3><strong>「遅すぎることはない。今がスタートライン。」</strong></h3>
+    <p>周りが「今さらプログラミング？」と笑っても、<br>
+    私は本気です。<strong>人生を変えるために、必死に学んでいます。</strong></p>
+    
+    <p>これまでの24年間の経験を、テクノロジーで花開かせたい。<br>
+    年齢を言い訳にせず、<strong>未経験だからこその情熱</strong>で勝負します。</p>
+    
+    <p><em>「44歳でもやれる」を証明し、同じように悩む人たちの希望になりたい。</em></p>
+  </blockquote>
+  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3500&pause=1000&color=FF6B6B&center=true&vCenter=true&width=900&lines=%F0%9F%92%AA+%E8%AB%A6%E3%82%81%E3%81%AA%E3%81%84%E5%BF%83%E3%81%A7%E3%80%81%E6%AF%8E%E6%97%A5%E6%88%90%E9%95%B7;%F0%9F%9A%80+44%E6%AD%B3%E3%81%A7%E3%82%82%E3%80%81%E5%A4%A2%E3%82%92%E8%BF%BD%E3%81%84%E7%B6%9A%E3%81%91%E3%82%8B;%E2%9C%A8+%E6%9C%AA%E7%B5%8C%E9%A8%93%E3%81%A0%E3%81%8B%E3%82%89%E3%81%93%E3%81%9D%E3%80%81%E5%BF%85%E6%AD%BB%E3%81%AB%E5%AD%A6%E3%81%B6"/>
+</div>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B6B,50:4ECDC4,100:45B7D1&height=100&section=footer"/>
 </p>
