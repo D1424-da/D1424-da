@@ -198,29 +198,72 @@
 
 ---
 
-## 💼 Work Experience Timeline
+## 💼 24年間の実務経験タイムライン
 
-```mermaid
-gantt
-    title 24年間の実務経験
-    dateFormat YYYY-MM
-    section 測量業
-    土地家屋調査士事務所 :2017-04, 2025-06
-    section 食品業
-    仕出し・惣菜販売業 :2013-06, 2016-10
-    section 自営業
-    古着リサイクルショップ :2010-04, 2013-04
-    section 小売業
-    総合リサイクルショップ :2006-06, 2010-02
-```
+<div align="center">
+  
+### 🏗️ 測量業界（8年3ヶ月）
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 15px; border-radius: 10px; margin: 10px 0; color: white;">
+  <h4>📅 2017年4月 ～ 2025年6月</h4>
+  <h3>🏢 土地家屋調査士事務所</h3>
+  <p><strong>📊 年間40〜80件の境界確定・登記業務</strong></p>
+  <p>🎯 測量士補資格取得 | 📐 正確性と責任感を徹底的に鍛錬</p>
+</div>
 
-### 主な実績
-| 期間 | 職種 | 主な成果 |
-|------|------|----------|
-| 2017-2025 | 測量業務担当 | 年間40〜80件の境界確定・登記業務 |
-| 2013-2016 | 経営統括 | SNS集客で月間60件の新規顧客獲得 |
-| 2010-2013 | 経営者（自営） | Webページ制作の基礎技術習得 |
-| 2006-2010 | 店舗責任者 | グループ9店舗中、売上伸び率1位 |
+### 🍱 食品業界（3年4ヶ月）
+<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 15px; border-radius: 10px; margin: 10px 0; color: white;">
+  <h4>📅 2013年6月 ～ 2016年10月</h4>
+  <h3>🏪 仕出し・惣菜販売業（経営統括）</h3>
+  <p><strong>📱 SNS集客で月間60件の新規顧客獲得</strong></p>
+  <p>🚀 デジタルマーケティングの基礎習得 | 📈 売上向上に貢献</p>
+</div>
+
+### 👔 自営業（3年）
+<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 15px; border-radius: 10px; margin: 10px 0; color: white;">
+  <h4>📅 2010年4月 ～ 2013年4月</h4>
+  <h3>♻️ 古着リサイクルショップ（経営者）</h3>
+  <p><strong>💻 Webページ制作の基礎技術習得</strong></p>
+  <p>🌐 初めてのWeb技術との出会い | 💪 起業家精神を養う</p>
+</div>
+
+### 🛍️ 小売業界（3年8ヶ月）
+<div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 15px; border-radius: 10px; margin: 10px 0; color: white;">
+  <h4>📅 2006年6月 ～ 2010年2月</h4>
+  <h3>🏬 総合リサイクルショップ（店舗責任者）</h3>
+  <p><strong>🏆 グループ9店舗中、売上伸び率1位達成</strong></p>
+  <p>👥 チームマネジメント経験 | 📊 数値管理スキル習得</p>
+</div>
+
+</div>
+
+---
+
+### 🎯 各業界で培ったスキル
+
+<table align="center">
+<tr>
+<td align="center" width="25%">
+  <img src="https://img.icons8.com/color/96/000000/survey.png" width="48"/>
+  <br><b>🏗️ 測量業</b>
+  <br><sub>精密性・責任感<br>法的知識</sub>
+</td>
+<td align="center" width="25%">
+  <img src="https://img.icons8.com/color/96/000000/restaurant.png" width="48"/>
+  <br><b>🍱 食品業</b>
+  <br><sub>マーケティング<br>顧客対応</sub>
+</td>
+<td align="center" width="25%">
+  <img src="https://img.icons8.com/color/96/000000/business.png" width="48"/>
+  <br><b>👔 自営業</b>
+  <br><sub>経営判断<br>IT基礎</sub>
+</td>
+<td align="center" width="25%">
+  <img src="https://img.icons8.com/color/96/000000/shop.png" width="48"/>
+  <br><b>🛍️ 小売業</b>
+  <br><sub>数値管理<br>チーム運営</sub>
+</td>
+</tr>
+</table>
 
 ---
 
