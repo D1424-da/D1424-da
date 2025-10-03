@@ -1,10 +1,39 @@
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B6B,50:4ECDC4,100:45B7D1&height=120&section=header&text=44%E6%AD%B3%E3%80%81%E4%BB%8A%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E6%8C%91%E6%88%A6&fontSize=35&fontAlignY=40"/>
+  <tps://capsule-render.vercel.app/api?type=waving&co## 🔥 44歳未経験からのIT挑戦
+
+<div align="center">
+  <blockquote>
+    <h3><strong>「このままでいいのか？」</strong></h3>
+    <p>43歳の時、ふと立ち止まって考えました。<br>
+    デジタル化が進む世界で、<strong>本当に価値を生み出せる人間になりたい</strong>。<br>
+    年齢は関係ない。<strong>今</strong>がスタートライン。</p>
+  </blockquote>
+  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=FF6B6B&center=true&vCenter=true&width=800&lines=%F0%9F%94%A5+44%E6%AD%B3%E3%81%8B%E3%82%89%E3%81%AE%E6%8C%91%E6%88%A6%E3%80%81%E7%B5%B6%E5%AF%BE%E3%81%AB%E8%AB%A6%E3%82%81%E3%81%AA%E3%81%84;%E2%9C%A8+%E6%AF%8E%E6%97%A520%E6%99%82%E9%96%93%E3%80%81%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%81%AB%E6%B2%A1%E9%A0%AD;%F0%9F%9A%80+%E6%9C%AA%E7%B5%8C%E9%A8%93%E3%81%A0%E3%81%8B%E3%82%89%E3%81%93%E3%81%9D%E3%80%81%E5%BF%85%E6%AD%BB%E3%81%AB%E5%AD%A6%E3%81%B6"/>
+</div>
+
+### 🚀 未経験だからこその覚悟
+
+- 🔥 **休日20時間連続コーディング** - 体力的にきつくても、楽しくて止められない
+- 📚 **16冊の技術書を並行学習** - 基礎から応用まで、妥協しない学習姿勢
+- 💪 **公共職業訓練で再スタート** - プライドを捨てて、ゼロから学び直す決意
+- ⚡ **生成AI時代の学習法** - 「なぜこのコードが必要なのか」を理解しながら学習ECDC4,100:### 💡 44歳の学習への本気度
+
+> **「若い人には時間がある。でも私には経験がある。」**
+
+- 🔥 **朝4時起床、夜中まで学習** - 限られた時間だからこそ、1分1秒を無駄にしない
+- 🤖 **AI時代の学習法** - ChatGPTやCopilotを使いながらも、「なぜ？」を徹底追求
+- 🎯 **目標は明確** - データサイエンティストとして、企業の課題を解決したい
+
+**この経験値とプログラミングスキルを掛け合わせれば、必ず価値を生み出せる。**t=120&section=header&text=44%E6%AD%B3%E3%80%81%E4%BB%8A%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E6%8C%91%E6%88%A6&fontSize=35&fontAlignY=40"/>
 </p>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=FF6B6B&center=true&vCenter=true&width=940&lines=%F0%9F%94%A5+44%E6%AD%B3%E3%80%81%E6%9C%AA%E7%B5%8C%E9%A8%93%E3%81%8B%E3%82%89IT%E6%A5%AD%E7%95%8C%E3%81%B8;%E2%9C%A8+%E4%BA%BA%E7%94%9F%E3%82%92%E5%A4%89%E3%81%88%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E5%86%8D%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88;%F0%9F%92%AA+%E8%AB%A6%E3%82%81%E3%81%AA%E3%81%84%E5%BF%83%E3%81%A7%E5%AD%A6%E3%81%B3%E7%B6%9A%E3%81%91%E3%82%8B" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Co<div align="center">
+  <h3>💡 "遅すぎることはない。今がスタートライン。"</h3>
+  <p><em>44歳でもやれることを証明し、同じように悩む人たちの希望になりたい。</em></p>
+</div>ion=2800&pause=2000&color=FF6B6B&center=true&vCenter=true&width=940&lines=%F0%9F%94%A5+44%E6%AD%B3%E3%80%81%E6%9C%AA%E7%B5%8C%E9%A8%93%E3%81%8B%E3%82%89IT%E6%A5%AD%E7%95%8C%E3%81%B8;%E2%9C%A8+%E4%BA%BA%E7%94%9F%E3%82%92%E5%A4%89%E3%81%88%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E5%86%8D%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88;%F0%9F%92%AA+%E8%AB%A6%E3%82%81%E3%81%AA%E3%81%84%E5%BF%83%E3%81%A7%E5%AD%A6%E3%81%B3%E7%B6%9A%E3%81%91%E3%82%8B" alt="Typing SVG" />
 </h1>
 
 <p align="center">
@@ -100,14 +129,7 @@
 
 **年齢は言い訳にしない。むしろ、これまでの経験を活かしたエンジニアになる。**
 
-### 💼 これまでの経験
 
-| 分野 | 実績 |
-|------|------|
-| 🏗️ **測量業務** | 年間40〜80件の境界確定・登記業務（8年3ヶ月） |
-| 📱 **デジタルマーケティング** | SNS集客で月間60件の新規顧客獲得 |
-| 📈 **マネジメント** | グループ9店舗中、売上伸び率1位達成 |
-| 💼 **起業経験** | 古着リサイクルショップ経営（3年間） |
 
 ### 💡 44歳の学習スタイル - 「必死さ」が違う
 
