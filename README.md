@@ -4,7 +4,25 @@
 </p>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=FF6B6B&center=true&vCenter=true&width=940&lines=%F0%9F%94%A5+44%E6%AD%B3%E3%80%81%E6%9C%AA%E7%B5%8C%E9%A8%93%E3%81%8B%E3%82%89IT%E6%A5%AD%E7%95%8C%E3%81%B8;%E2%9C%A8+%E4%BA%BA%E7%94%9F%E3%82%92%E5%A4%89%E3%81%88%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E5%86%8D%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88;%F0%9F%92%AA+%E8%AB%A6%E3%82%81%E3%81%AA%E3%81%84%E5%BF%83%E3%81%A7%E5%AD%A6%E3%81%B3%E7%B6%9A%E3%81%91%E3%82%8B" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Co## 🔥 44歳未経験からのメッセージ 🔥
+
+<p align="center">
+
+### **「遅すぎることはない。今がスタートライン。」**
+
+周りが「今さらプログラミング？」と笑っても、私は本気です。  
+**人生を変えるために、必死に学んでいます。**
+
+これまでの24年間の経験を、テクノロジーで花開かせたい。  
+年齢を言い訳にせず、**未経験だからこその情熱**で勝負します。
+
+*「44歳でもやれる」を証明し、同じように悩む人たちの希望になりたい。*
+
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3500&pause=1000&color=FF6B6B&center=true&vCenter=true&width=900&lines=%F0%9F%92%AA+%E8%AB%A6%E3%82%81%E3%81%AA%E3%81%84%E5%BF%83%E3%81%A7%E3%80%81%E6%AF%8E%E6%97%A5%E6%88%90%E9%95%B7;%F0%9F%9A%80+44%E6%AD%B3%E3%81%A7%E3%82%82%E3%80%81%E5%A4%A2%E3%82%92%E8%BF%BD%E3%81%84%E7%B6%9A%E3%81%91%E3%82%8B;%E2%9C%A8+%E6%9C%AA%E7%B5%8C%E9%A8%93%E3%81%A0%E3%81%8B%E3%82%89%E3%81%93%E3%81%9D%E3%80%81%E5%BF%85%E6%AD%BB%E3%81%AB%E5%AD%A6%E3%81%B6"/>
+</p>on=2800&pause=2000&color=FF6B6B&center=true&vCenter=true&width=940&lines=%F0%9F%94%A5+44%E6%AD%B3%E3%80%81%E6%9C%AA%E7%B5%8C%E9%A8%93%E3%81%8B%E3%82%89IT%E6%A5%AD%E7%95%8C%E3%81%B8;%E2%9C%A8+%E4%BA%BA%E7%94%9F%E3%82%92%E5%A4%89%E3%81%88%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E5%86%8D%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88;%F0%9F%92%AA+%E8%AB%A6%E3%82%81%E3%81%AA%E3%81%84%E5%BF%83%E3%81%A7%E5%AD%A6%E3%81%B3%E7%B6%9A%E3%81%91%E3%82%8B" alt="Typing SVG" />
 </h1>
 
 <p align="center">
