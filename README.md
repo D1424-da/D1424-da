@@ -1,22 +1,10 @@
 
 <p align="center">
-  <tps://capsule-render.vercel.app/api?type=waving&color=0:FF6B6B,50:4ECDC4,100:45B7D1&height=120&section=header&text=44%E6%AD%B3%E3%80%81%E4%BB%8A%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E6%8C%91%E6%88%A6&fontSize=35&fontAlignY=40"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B6B,50:4ECDC4,100:45B7D1&height=120&section=header&text=44%E6%AD%B3%E3%80%81%E4%BB%8A%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E6%8C%91%E6%88%A6&fontSize=35&fontAlignY=40"/>
 </p>
 
 <h1 align="center">
-  <img src="https://readme## 📫 Let's Connect!
-
-<div align="center">
-  <h3>💼 転職活動中です</h3>
-  
-  <p>44歳からの挑戦ですが、<strong>24年間の実務経験</strong>と<strong>継続的な学習</strong>で、<br>
-  データ分析・機械学習・業務効率化の分野で貢献したいと考えています。</p>
-  
-  <blockquote>
-    <p><strong>「遅すぎることはない。今がスタートライン。」</strong><br>
-    未経験だからこその情熱で、企業の課題解決に取り組みます。</p>
-  </blockquote>
-</div>app.com?font=Fira+Coion=2800&pause=2000&color=FF6B6B&center=true&vCenter=true&width=940&lines=%F0%9F%94%A5+44%E6%AD%B3%E3%80%81%E6%9C%AA%E7%B5%8C%E9%A8%93%E3%81%8B%E3%82%89IT%E6%A5%AD%E7%95%8C%E3%81%B8;%E2%9C%A8+%E4%BA%BA%E7%94%9F%E3%82%92%E5%A4%89%E3%81%88%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E5%86%8D%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88;%F0%9F%92%AA+%E8%AB%A6%E3%82%81%E3%81%AA%E3%81%84%E5%BF%83%E3%81%A7%E5%AD%A6%E3%81%B3%E7%B6%9A%E3%81%91%E3%82%8B" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=FF6B6B&center=true&vCenter=true&width=940&lines=%F0%9F%94%A5+44%E6%AD%B3%E3%80%81%E6%9C%AA%E7%B5%8C%E9%A8%93%E3%81%8B%E3%82%89IT%E6%A5%AD%E7%95%8C%E3%81%B8;%E2%9C%A8+%E4%BA%BA%E7%94%9F%E3%82%92%E5%A4%89%E3%81%88%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E5%86%8D%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88;%F0%9F%92%AA+%E8%AB%A6%E3%82%81%E3%81%AA%E3%81%84%E5%BF%83%E3%81%A7%E5%AD%A6%E3%81%B3%E7%B6%9A%E3%81%91%E3%82%8B" alt="Typing SVG" />
 </h1>
 
 <p align="center">
