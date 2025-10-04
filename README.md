@@ -1,222 +1,262 @@
-<h1 align="center">Daisuke Ikeda</h1><p align="center">
-  <b>Data Scientist / Machine Learning Engineer</b><br>
-  <sub>24年間の実務経験を活かしたデータサイエンティストを目指しています</sub>
-</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Age-44-blue?style=flat-square" alt="Age"/>
-  <img src="https://img.shields.io/badge/Experience-24年-green?style=flat-square" alt="Experience"/>
-  <img src="https://img.shields.io/badge/Focus-Data%20Science-orange?style=flat-square" alt="Focus"/>
-  <img src="https://img.shields.io/badge/Location-Japan-red?style=flat-square" alt="Location"/>
-  <img src="https://komarev.com/ghpvc/?username=D1424-da&color=blueviolet&style=flat-square" alt="Profile views"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,100:00A67E&height=120&section=header&text=IT%20Challenge%20from%2044!&fontSize=40&fontAlignY=40"/>
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1500&color=4ECDC4&center=true&vCenter=true&width=600&lines=Experience+%C3%97+Technology+%3D+Value;Transforming+Business+with+Data" alt="Typing SVG" />
-</p>
-
----
-
-## 💼 About Me
-
-44歳でIT業界にキャリアチェンジし、データサイエンティストを目指しています。
-
-**特徴:**
-- 🎯 **実務経験と技術の融合**: 24年間の実務経験（測量業8年含む）を活かした実用的なソリューション開発
-- 📚 **継続的学習**: 16冊の技術書と公共職業訓練で着実にスキルアップ
-- 🚀 **問題解決能力**: 実務で直面した課題を技術で解決（GPSSCANアプリなど）
-
-**目標:**
-企業のデータを活用してビジネス価値を創出するデータサイエンティストとして貢献すること。
-
----
-
-## 🚀 Featured Projects6%9C%AA%E7%B5%8C%E9%A8%93%E3%81%8B%E3%82%89IT%E6%A5%AD%E7%95%8C%E3%81%B8;24%E5%B9%B4%E3%81%AE%E5%AE%9F%E5%8B%99%E7%B5%8C%E9%A8%93+%C3%97+%E6%8A%80%E8%A1%93%E5%8A%9B" alt="Typing SVG" />
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=2E9EF7&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B+I'm+Daisuke+Ikeda;44%E6%AD%B3%E3%81%8B%E3%82%89IT%E6%A5%AD%E7%95%8C%E3%81%AB%E6%8C%91%E6%88%A6%E4%B8%AD" alt="Typing SVG" />
 </h1>
 
 <p align="center">
-  <b>データサイエンス・機械学習エンジニアを目指す</b><br>
-  <sub>測量業8年 × プログラミング × 諦めない心で価値を創造する</sub>
+  <b>「44歳からのIT挑戦」<br>データ分析・AI・自動化で未来を切り拓く</b>
 </p>
+
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Age-44%E6%AD%B3-blue?style=flat-square" alt="Age"/>
-  <img src="https://img.shields.io/badge/Career-24%E5%B9%B4%E3%81%AE%E5%AE%9F%E5%8B%99%E7%B5%8C%E9%A8%93-green?style=flat-square" alt="Career"/>
-  <img src="https://img.shields.io/badge/Goal-%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88-orange?style=flat-square" alt="Goal"/>
-  <img src="https://komarev.com/ghpvc/?username=D1424-da&color=blueviolet&style=flat-square" alt="Profile views"/>
+  <img src="https://img.shields.io/badge/%F0%9F%9F%A2%20Status-Seeking%20Job%20Opportunities-success?style=for-the-badge" alt="Status"/>
+  <img src="https://img.shields.io/badge/Age-44-blue?style=for-the-badge" alt="Age"/>
+  <img src="https://img.shields.io/badge/Focus-Data%20Analysis%20%7C%20ML%20%7C%20Automation-orange?style=for-the-badge" alt="Focus"/>
+  <img src="https://img.shields.io/badge/Challenge-IT%20from%2044!-purple?style=for-the-badge" alt="Challenge"/>
+</p>
+
+
+<p align="center">
+  <b>📊 データ分析 | 🤖 機械学習・AI | ⚡ 業務効率化</b>
+  <br>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=1500&color=00A67E&center=true&vCenter=true&width=600&lines=Never+too+late+to+start!;AI+%E3%81%A7%E6%9C%AA%E6%9D%A5%E3%82%92%E5%88%87%E3%82%8A%E6%8B%93%E3%81%8F"/>
 </p>
 
 ---
 
-## � About Me
+## 🚀 Featured Projects
 
-44歳でIT業界にキャリアチェンジし、データサイエンティストを目指しています。
+<table>
+<tr>
+<td width="50%">
 
-**特徴:**
-- 🎯 **実務経験と技術の融合**: 24年間の実務経験（測量業8年含む）を活かした実用的なソリューション開発
-- 📚 **継続的学習**: 16冊の技術書と公共職業訓練で着実にスキルアップ
-- 🚀 **問題解決能力**: 実務で直面した課題を技術で解決（GPSSCANアプリなど）
+### 📁 File Search App
+実務で使える高速ファイル検索アプリケーション
 
-**目標:**
-企業のデータを活用してビジネス価値を創出するデータサイエンティストとして貢献すること。
+**Tech Stack:**
+- Python
+- GUI開発
+
+[![Repo](https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github)](https://github.com/D1424-da/file-search-app)
+
+</td>
+<td width="50%">
+
+### 🤖 AI Project
+機械学習を活用したPC操作支援アプリ
+
+**Highlights:**
+- 192,000枚の画像データセット作成
+- 12クラスの画像認識
+
+[![Repo](https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github)](https://github.com/D1424-da/AI)
+
+</td>
+</tr>
+<tr>
+<td width="50%" colspan="2">
+
+### 📍 GPS SCAN
+位置情報を活用したスキャンアプリケーション
+
+**Features:**
+- GPS機能の実装
+- データ処理と可視化
+
+[![Repo](https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github)](https://github.com/D1424-da/GPSSCAN)
+
+</td>
+</tr>
+</table>
 
 ---
 
-## �🚀 Featured Projects
+## 👨‍💻 About Me
 
-### 📍 [GPSSCAN - 測量写真リネームアプリケーション](https://github.com/D1424-da/GPSSCAN)
-**測量業務の効率化を実現する実用的なデスクトップアプリ**
+24年間にわたり測量業・営業・自営業など多様な業界で実務経験を積み、現在は**公共職業訓練（2025年6月〜12月）**にてプログラミング技術を習得中です。
 
-```python
-# SIMファイル(測量データ) + GPS情報 → 体系的なファイル名へ自動変換
-写真管理時間を80%削減
+### 💼 これまでの経験
+
+| 分野 | 実績 |
+|------|------|
+| 🏗️ **測量業務** | 年間40〜80件の境界確定・登記業務（8年3ヶ月） |
+| 📱 **デジタルマーケティング** | SNS集客で月間60件の新規顧客獲得 |
+| 📈 **マネジメント** | グループ9店舗中、売上伸び率1位達成 |
+| 💼 **起業経験** | 古着リサイクルショップ経営（3年間） |
+
+### 💡 プログラミング学習への情熱
+
+- 🔥 休日には**20時間連続でコードを書き続ける**ほど没頭
+- 🤖 生成AIを活用しながら「なぜこのコードが必要か」を理解しながら学習
+- 📚 理論と実践の両方を重視した学習スタイル
+- 🎯 **関心分野**: データ分析 | 機械学習 | 業務効率化 | AI活用
+
+---
+
+## 💻 Tech Stack
+
+### 🎓 訓練校で学習中
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#"/>
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL"/>
+</p>
+
+### 📚 独学で習得中
+<p>
+  <img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="ML"/>
+  <img src="https://img.shields.io/badge/Data%20Analysis-013243?style=for-the-badge&logo=pandas&logoColor=white" alt="Data Analysis"/>
+  <img src="https://img.shields.io/badge/Deep%20Learning-FF6F00?style=for-the-badge&logo=pytorch&logoColor=white" alt="Deep Learning"/>
+  <img src="https://img.shields.io/badge/Web%20Scraping-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Scraping"/>
+  <img src="https://img.shields.io/badge/Statistics-4285F4?style=for-the-badge&logo=google-analytics&logoColor=white" alt="Statistics"/>
+</p>
+
+### 🛠️ その他のスキル
+<p>
+  <img src="https://img.shields.io/badge/CAD-0696D7?style=for-the-badge&logo=autodesk&logoColor=white" alt="CAD"/>
+  <img src="https://img.shields.io/badge/Digital%20Marketing-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Marketing"/>
+  <img src="https://img.shields.io/badge/ChatGPT-00A67E?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT"/>
+</p>
+
+---
+
+## 📚 Learning Journey
+
+<details>
+<summary><b>📖 走破済みの書籍（9冊）</b></summary>
+
+### 基礎固めとして読破
+- ✅ Python 1年生 - 基礎構文・変数・関数
+- ✅ Python 2年生 スクレイピング - Beautiful Soup・requests
+- ✅ Python 2年生 データ分析 - pandas・matplotlib
+- ✅ Python 3年生 機械学習 - scikit-learn入門
+- ✅ Python 3年生 ディープラーニング - ニューラルネットワーク入門
+- ✅ データサイエンス 1年生 - データ分析の基礎
+- ✅ SQL 1年生 - データベース基礎
+- ✅ JavaScript 1年生 - Web開発の基礎
+- ✅ ChatGPTプログラミング 1年生 - AI活用の基礎
+
+</details>
+
+<details>
+<summary><b>📚 現在学習中のオライリー技術書（4冊）</b></summary>
+
+### より実践的な技術習得のため
+- 🔄 入門 Python 3
+- 🔄 Pythonではじめる機械学習
+- 🔄 退屈なことはPythonにやらせよう
+- 🔄 ゼロから作るDeep Learning
+
+</details>
+
+<details>
+<summary><b>📖 現在学習中の入門書（3冊）</b></summary>
+
+### 幅広い技術の習得
+- 🔄 Java 1年生
+- 🔄 Python 2年生 アプリ開発の仕組み
+- 🔄 AWS 1年生 クラウドのしくみ
+
+</details>
+
+**📊 合計16冊の技術書に取り組み中**
+
+---
+
+## 💼 Work Experience Timeline
+
+```mermaid
+gantt
+    title 24年間の実務経験
+    dateFormat YYYY-MM
+    section 測量業
+    土地家屋調査士事務所 :2017-04, 2025-06
+    section 食品業
+    仕出し・惣菜販売業 :2013-06, 2016-10
+    section 自営業
+    古着リサイクルショップ :2010-04, 2013-04
+    section 小売業
+    総合リサイクルショップ :2006-06, 2010-02
 ```
 
-**技術スタック:**
-- `Python` `Tkinter` `Matplotlib` `Pillow` `pyproj`
-- GPS座標系変換（WGS84 ↔ 平面直角座標系）
-- ドラッグ&ドロップUI、地図可視化
-
-**主な機能:**
-- SIMファイル解析（A01/A02/D00形式対応）
-- GPS座標の自動平面直角座標変換（EPSG:6669-6687）
-- インタラクティブな地図ビューで測量点と写真をマッチング
-- 柔軟なリネームルール（遠景/近景、通し番号管理）
-
-👉 [詳細なREADMEはこちら](https://github.com/D1424-da/GPSSCAN)
-
----
-
-### 🤖 [PC操作支援AI - 画像認識アプリ](https://github.com/D1424-da/AI)
-**機械学習を活用した操作自動化ツール**
-
-**取り組み:**
-- 192,000枚の画像データセット作成（データ拡張含む）
-- 12クラスの画像認識モデル構築
-- 実務での操作効率化を実現
-
-**使用技術:** `TensorFlow/Keras` `OpenCV` `scikit-learn`
-
----
-
-### 📁 [高速ファイル検索アプリ](https://github.com/D1424-da/file-search-app)
-**業務で使える実用的な検索ツール**
-
-- Pythonによる高速ファイル検索エンジン
-- GUI実装による直感的な操作性
-
----
-
-## 💻 Technical Skills
-
-### 🐍 Programming Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-### 📈 Data Science & Machine Learning
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
-
-### 🛠️ Tools & Technologies
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![ChatGPT](https://img.shields.io/badge/ChatGPT-00A67E?style=for-the-badge&logo=openai&logoColor=white)
-
-### 🎯 Domain Expertise
-- **測量・空間情報**: GPS座標系変換、GISデータ処理
-- **デジタルマーケティング**: SNS集客、データ分析による改善
-- **プロジェクトマネジメント**: 店舗運営・業務効率化の実績
+### 主な実績
+| 期間 | 職種 | 主な成果 |
+|------|------|----------|
+| 2017-2025 | 測量業務担当 | 年間40〜80件の境界確定・登記業務 |
+| 2013-2016 | 経営統括 | SNS集客で月間60件の新規顧客獲得 |
+| 2010-2013 | 経営者（自営） | Webページ制作の基礎技術習得 |
+| 2006-2010 | 店舗責任者 | グループ9店舗中、売上伸び率1位 |
 
 ---
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=D1424-da&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=D1424-da&layout=compact&langs_count=8&theme=tokyonight"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=D1424-da&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=D1424-da&layout=compact&langs_count=8&theme=tokyonight"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=D1424-da&theme=tokyonight" alt="GitHub Streak"/>
 </p>
 
 ---
 
-## 📚 Education & Learning
+## 🎓 Certifications
 
-### 🎓 公共職業訓練
-**ITシステム科** (2025年6月 - 12月)
-- Python, JavaScript, PHP, C#, SQLの体系的学習
-- Webアプリケーション開発実習
-
-### 📚 独学での技術書学習
-**完読**: 9冊 (基礎編)
-- Pythonシリーズ, データサイエンス, SQL, JavaScript
-
-**学習中**: 7冊 (応用編)
-- オライリー技術書 4冊含む
-
-### 🎯 学習アプローチ
-- **理論と実践の両立**: 基礎理論を理解した上で実装
-- **AI活用学習**: ChatGPT/Copilotを使いながら本質的理解を追求
-- **問題解決型**: 実務で直面した課題を技術で解決
-
----
-
-## 💼 Professional Experience
-
-### 🏗️ 測量業界（8年3ヶ月）
-**土地家屋調査士事務所** | 2017年4月 - 2025年6月
-
-- **年間40〜80件の境界確定・登記業務**を担当
-- 測量士補資格を取得（2021年1月）
-- **精密性・責任感・法的知識**を徹底的に習得
-- → **GPSSCANアプリ開発**に直結（実務課題を技術で解決）
-
-### 🍱 食品業界（3年4ヶ月）
-**仕出し・惣菜販売業** | 2013年6月 - 2016年10月
-
-- SNS集客で**月間60件の新規顧客獲得**
-- デジタルマーケティングの基礎を実践
-- → **データ分析・マーケティング**への興味のきっかけ
-
-### その他の経験
-- **自営業（3年）**: 古着リサイクルショップ経営、Webページ制作の基礎習得
-- **小売業（3年8ヶ月）**: 店舗責任者として**グループ9店舗中売上伸び率1位**達成
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://img.icons8.com/color/96/000000/survey.png" width="48"/>
+      <br><b>測量士補</b>
+      <br><sub>2021年1月</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.icons8.com/color/96/000000/car.png" width="48"/>
+      <br><b>普通自動車免許</b>
+      <br><sub>2001年6月</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.icons8.com/color/96/000000/motorcycle.png" width="48"/>
+      <br><b>普通自動二輪免許</b>
+      <br><sub>2001年6月</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🌱 Career Transition Story
 
-### Why Data Science at 44?
+## 🎯 Current Goals
 
-43歳の時、24年間の実務経験を振り返って気づいたこと:
+<p align="center">
+  <img src="https://progress-bar.dev/25/?title=O'Reilly%20Books"/>
+  <img src="https://progress-bar.dev/40/?title=ML%20Portfolio"/>
+  <img src="https://progress-bar.dev/10/?title=Kaggle%20Challenge"/>
+</p>
 
-> **「デジタル化が進む世界で、本当に価値を生み出せる人間になりたい」**
-
-**決断の背景:**
-- 📈 測量業での非効率なプロセス → 技術で解決したい
-- 📊 SNSマーケティングの成功体験 → データの力を実感
-- 🚀 経験値 × 技術力で新しい価値創造への確信
-
-### Learning Approach
-- **効率重視**: 限られた時間で最大の成果を目指す
-- **実践結合**: 学んだ即日、実務課題で実装・検証
-- **本質理解**: AIツールを活用しつつ、根本原理を理解
+- [ ] オライリー技術書4冊の完読
+- [ ] 機械学習プロジェクトのポートフォリオ拡充
+- [ ] データ分析・AI分野での転職成功
+- [ ] Kaggleコンペティションへの参加
+- [ ] 技術ブログの開設
 
 ---
 
-## 🏆 Certifications
+## 📫 Let's Connect!
 
-- 📄 **測量士補** (2021年1月) - 国家資格
-- 🚗 **普通自動車免許** (2001年6月)
-- 🏍️ **普通自動二輪免許** (2001年6月)
-
----
-
-## 📬 Contact
+<p align="center">
+  現在、<b>転職活動中</b>です。<br>
+  データ分析・機械学習・業務効率化の分野でのご縁をお待ちしております。
+</p>
 
 <p align="center">
   <a href="https://github.com/D1424-da">
@@ -232,176 +272,13 @@
 
 ---
 
-<div align="center">
-  <h3>💼 Looking for Opportunities</h3>
-  
-  <p>
-    データサイエンス・機械学習エンジニア・業務効率化のポジションを探しています。<br>
-    <strong>24年間の実務経験</strong>と<strong>継続的な学習で習得した技術力</strong>で、<br>
-    企業のデータ活用とビジネス成長に貢献したいと考えています。
-  </p>
-  
-  <p>
-    <strong>特に強みを発揮できる領域:</strong><br>
-    • 業務プロセスのデジタル化・自動化<br>
-    • 実務データを活用した分析・予測モデル構築<br>
-    • ビジネス課題を技術で解決するソリューション開発
-  </p>
-  
-  <blockquote>
-    <em>「遅すぎることはない。今がスタートライン。」</em>
-  </blockquote>
-</div>
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4ECDC4,100:556270&height=100&section=footer"/>
+  <img src="https://komarev.com/ghpvc/?username=D1424-da&color=blueviolet&style=for-the-badge" alt="Profile views"/>
 </p>
 
-### 📁 [高速ファイル検索アプリ](https://github.com/D1424-da/file-search-app)
-**業務で使える実用的な検索ツール**
 
-- Pythonによる高速ファイル検索エンジン
-- GUI実装による直感的な操作性
-
----
-
-## 💻 Technical Skills
-
-### 🐍 Programming Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-### 📈 Data Science & Machine Learning
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
-
-### 🛠️ Tools & Technologies
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![ChatGPT](https://img.shields.io/badge/ChatGPT-00A67E?style=for-the-badge&logo=openai&logoColor=white)
-
-### 🎯 Domain Expertise
-- **測量・空間情報**: GPS座標系変換、GISデータ処理
-- **デジタルマーケティング**: SNS集客、データ分析による改善
-- **プロジェクトマネジメント**: 店舗運営・業務効率化の実績
-
----
-
-## 📊 GitHub Stats
+<h3 align="center">💡 "44歳からのIT挑戦、継続中です"<br>Never too late to start!</h3>
 
 <p align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=D1424-da&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=D1424-da&layout=compact&langs_count=8&theme=tokyonight"/>
-</p>
-
----
-
-## 🎯 現在の学習状況
-
-### 📚 技術書での学習
-**完読済み（9冊）:**
-- Python 1年生 / 2年生（スクレイピング・データ分析）/ 3年生（機械学習・ディープラーニング）
-- データサイエンス 1年生、SQL 1年生、JavaScript 1年生
-- ChatGPTプログラミング 1年生
-
-**学習中（7冊）:**
-- 入門 Python 3（オライリー）
-- Pythonではじめる機械学習（オライリー）
-- 退屈なことはPythonにやらせよう（オライリー）
-- ゼロから作るDeep Learning（オライリー）
-- Java 1年生、AWS 1年生、他
-
-### 📈 学習の進め方
-- **理解重視**: AI（ChatGPT/Copilot）を活用しつつ、「なぜ？」を徹底追求
-- **実践重視**: 学んだ知識を即座にプロジェクトで実装
-- **継続性**: 公共職業訓練（週40時間）+ 独学（毎日数時間）
-
----
-
-## 💼 実務経験の強み
-
-### 🏗️ 測量業（8年3ヶ月）- 土地家屋調査士事務所
-**2017年4月 ～ 2025年6月**
-
-- **年間40〜80件の境界確定・登記業務**を担当
-- 測量士補資格を取得（2021年1月）
-- **精密性・責任感・法的知識**を徹底的に習得
-- → **GPSSCANアプリ開発**に直結（実務課題を技術で解決）
-
-### 🍱 食品業界（3年4ヶ月）- 仕出し・惣菜販売業
-**2013年6月 ～ 2016年10月**
-
-- SNS集客で**月間60件の新規顧客獲得**
-- デジタルマーケティングの基礎を実践
-- → **データ分析・マーケティング**への興味のきっかけ
-
-### その他の経験
-- **自営業（3年）**: 古着リサイクルショップ経営、Webページ制作の基礎習得
-- **小売業（3年8ヶ月）**: 店舗責任者として**グループ9店舗中売上伸び率1位**達成
-
----
-
-## 🌱 Career Transition Story
-
-### Why Data Science at 44?
-
-43歳の時、24年間の実務経験を振り返って気づいたこと:
-
-> **「デジタル化が進む世界で、本当に価値を生み出せる人間になりたい」**
-
-**決断の背景:**
-- 📈 測量業での非効率なプロセス → 技術で解決したい
-- 📊 SNSマーケティングの成功体験 → データの力を実感
-- 🚀 経験値 × 技術力で新しい価値創造への確信
-
-### Learning Approach
-- **効率重視**: 限られた時間で最大の成果を目指す
-- **実践結合**: 学んだ即日、実務課題で実装・検証
-- **本質理解**: AIツールを活用しつつ、根本原理を理解
-
----
-
-## 📬 Contact
-
-<p align="center">
-  <a href="https://github.com/D1424-da">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="mailto:d.i.a.0101@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://D1424-da.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
-  </a>
-</p>
-
----
-
-<div align="center">
-  <h3>💼 企業の方へ</h3>
-  
-  <p>
-    44歳、プログラミング未経験からのスタートですが、<br>
-    <strong>24年間の実務経験 × 必死に学んだ技術力 × 諦めない情熱</strong>で、<br>
-    必ず御社に貢献できると確信しています。
-  </p>
-  
-  <p>
-    <strong>データ分析・機械学習・業務効率化</strong>の分野で、<br>
-    一緒に価値を生み出させてください。
-  </p>
-  
-  <blockquote>
-    <em>「遅すぎることはない。今がスタートライン。」</em>
-  </blockquote>
-</div>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4ECDC4,100:556270&height=100&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
 </p>
