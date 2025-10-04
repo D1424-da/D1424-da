@@ -8,68 +8,100 @@
 
 <p align="center">
   <b>24年間の実務経験 × プログラミング技術で価値を創造する</b><br>
-  <sub>データ分析・機械学習・業務効率化</sub>
+  <sub>業務効率化・アプリ開発・システム自動化</sub>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/%F0%9F%9F%A2%20Status-Seeking%20Job%20Opportunities-success?style=for-the-badge" alt="Status"/>
   <img src="https://img.shields.io/badge/Age-44-blue?style=for-the-badge" alt="Age"/>
-  <img src="https://img.shields.io/badge/Focus-Data%20Analysis%20%7C%20ML%20%7C%20Automation-orange?style=for-the-badge" alt="Focus"/>
+  <img src="https://img.shields.io/badge/Focus-Automation%20%7C%20Apps%20%7C%20Efficiency-orange?style=for-the-badge" alt="Focus"/>
   <img src="https://komarev.com/ghpvc/?username=D1424-da&color=blueviolet&style=for-the-badge" alt="Profile views"/>
 </p>
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Featured Project
 
-### 📍 [GPSSCAN - 測量写真リネームアプリケーション](https://github.com/D1424-da/GPSSCAN)
+### 📊 測量報告書作成自動化システム
 
-**8年間の測量業務経験から生まれた、実務課題を解決する実用ツール**
+**8年間の測量業務経験から生まれた、業務全体を自動化する統合システム**
 
-```python
-# SIMファイル(測量データ) + GPS情報 → 体系的なファイル名へ自動変換
-# 写真管理作業時間を80%削減
-```
+#### 解決した課題
+
+測量業務において、以下の課題がありました：
+- 写真内容（遠景/近景など）を目視で判別する必要がある
+- 報告書に写真を1枚ずつ手作業で配置する必要がある
+- 測量画像の管理が煩雑で時間がかかる
+
+この作業は1件あたり**数時間かかっていました**。年間40〜80件の業務で大きな負担となっていたため、**3つのサブシステムを連携させた完全自動化システム**を開発しました。
+
+---
+
+#### システム構成
+
+業務フローに沿った3段階の自動化を実現：
+
+**ステップ1: GPSSCAN（写真リネーム自動化）**
+- SIMファイル（測量データ）とGPS情報から、写真を測量点に自動マッチング
+- 体系的なファイル名に一括リネーム
 
 **主な機能:**
 - SIMファイル解析（A01/A02/D00形式対応）
 - GPS座標の自動平面直角座標変換（EPSG:6669-6687）
-- ドラッグ&ドロップによる直感的な写真マッチング
+- ドラッグ&ドロップによる直感的なマッチングUI
 - 測量点・地番境界の地図可視化
 
-**技術スタック:**
-- `Python` `Tkinter` `Matplotlib` `Pillow` `pyproj` `pandas` `OpenCV`
+**技術:** `Python` `Tkinter` `Matplotlib` `pyproj` `pandas` `OpenCV`
 
-**実務での価値:**
-- 年間40〜80件の業務で培った知識を技術で実装
-- 手作業で30分かかっていた写真整理を数分に短縮
-- 測量士補の知識 × プログラミングスキルの融合
-
-[![Repo](https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github)](https://github.com/D1424-da/GPSSCAN)
+[![GPSSCAN](https://img.shields.io/badge/GPSSCAN-Repository-181717?style=for-the-badge&logo=github)](https://github.com/D1424-da/GPSSCAN)
 
 ---
 
-### 🤖 [PC操作支援AI - 画像認識アプリ](https://github.com/D1424-da/AI)
+**ステップ2: AI画像認識（写真分類自動化）**
+- 機械学習により、写真の内容を自動判別
+- 遠景/近景などを自動分類し、次のステップに必要な情報を付与
 
-**機械学習を活用した操作自動化ツール**
+**技術的な取り組み:**
+- 192,000枚の画像データセット作成（12クラス × 各16,000枚）
+- TensorFlow/Kerasによるディープラーニングモデル構築
+- データ拡張による汎化性能向上
+
+**技術:** `Python` `TensorFlow/Keras` `OpenCV` `scikit-learn`
+
+[![AI](https://img.shields.io/badge/AI-Repository-181717?style=for-the-badge&logo=github)](https://github.com/D1424-da/AI)
+
+---
+
+**ステップ3: 自動写真アルバム（報告書配置自動化）**
+- Excel VBAにより、整理された写真を報告書フォーマットに自動配置
+- 最終的な測量報告書を完成
 
 **実装内容:**
-- 192,000枚の画像データセット作成（データ拡張含む）
-- 12クラスの画像認識モデル構築
-- TensorFlow/Kerasによるディープラーニング実装
+- 測量点ごとに写真を自動配置
+- 遠景/近景の配置位置を自動判定
+- 報告書フォーマットに準拠した体裁調整
 
-**使用技術:** `Python` `TensorFlow/Keras` `OpenCV` `scikit-learn`
-
-[![Repo](https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github)](https://github.com/D1424-da/AI)
+**技術:** `Excel VBA` `マクロ自動化`
 
 ---
+
+#### 成果
+
+- **作業時間**: 数時間 → 数分に短縮
+- **適用業務数**: 年間40〜80件
+- **システム連携**: 3つのサブシステムによる統合ワークフロー
+
+---
+
+## 💼 Other Projects
 
 ### 📁 [高速ファイル検索アプリ](https://github.com/D1424-da/file-search-app)
 
-**業務効率化のための実用的な検索ツール**
+**課題:** 測量資料を紙ベースで保管していたため、保管場所と書類管理が大変
 
-- Pythonによる高速ファイル検索エンジン実装
-- GUIによる直感的なユーザーインターフェース
+**解決策:** デジタル化した資料を高速検索できるツールを開発し、必要な書類をすぐに見つけられるように
+
+**技術:** `Python` `Tkinter`
 
 [![Repo](https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github)](https://github.com/D1424-da/file-search-app)
 
@@ -79,24 +111,24 @@
 
 ### 言語
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Excel VBA](https://img.shields.io/badge/Excel%20VBA-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-### データサイエンス・機械学習
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+### フレームワーク・ライブラリ
+![Tkinter](https://img.shields.io/badge/Tkinter-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-### ツール・その他
+### ツール
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![ChatGPT](https://img.shields.io/badge/ChatGPT-00A67E?style=for-the-badge&logo=openai&logoColor=white)
 
 ---
 
@@ -108,15 +140,8 @@
 ### 学習スタイル
 
 - **理論と実践の両立**: オライリー技術書で理論を学び、即座にプロジェクトで実装
-- **AI時代の学習法**: ChatGPT/Copilotを活用しつつ、「なぜ？」を徹底追求
-- **実務課題の解決**: 測量業務の経験から、GPSSCANなど実用ツールを開発
-
-### 関心分野
-
-- データ分析・可視化
-- 機械学習・ディープラーニング
-- 業務プロセスの自動化・効率化
-- 生成AI活用
+- **実務課題の解決**: 測量業務の経験から、業務自動化システムを開発
+- **システム設計力**: 複数の技術を統合し、業務フロー全体を最適化
 
 ---
 
@@ -127,15 +152,13 @@
 
 - 年間40〜80件の境界確定・登記業務を担当
 - 測量士補資格取得（2021年1月）
-- 精密性・責任感・法的知識を習得
-- → **GPSSCANアプリ開発**に直結（実務課題を技術で解決）
+- 業務フロー全体を理解し、自動化システムの設計・開発に活用
 
 ### 🍱 食品業界（3年4ヶ月）
 **仕出し・惣菜販売業（経営統括）| 2013年6月 〜 2016年10月**
 
 - SNS集客で月間60件の新規顧客獲得
-- デジタルマーケティングの基礎を実践
-- → データ分析への興味の起点
+- デジタルマーケティングの実践経験
 
 ### その他の経験
 
@@ -188,9 +211,8 @@
 ## 🎯 Current Goals
 
 - オライリー技術書の完読と実践
-- 機械学習プロジェクトのポートフォリオ拡充
-- 業務効率化アプリケーションの開発
-- データ分析・AI・業務効率化分野での転職成功
+- 業務自動化システムのポートフォリオ拡充
+- 業務効率化・システム開発分野での転職成功
 
 ---
 
@@ -221,8 +243,8 @@
 ## 📫 Contact
 
 <p align="center">
-  現在、<b>データ分析・機械学習・業務効率化</b>分野での転職活動中です。<br>
-  44歳未経験ですが、24年間の実務経験と必死に学んだ技術力で必ず貢献できます。
+  現在、<b>業務効率化・アプリ開発・システム自動化</b>分野での転職活動中です。<br>
+  44歳未経験ですが、24年間の実務経験と技術力で必ず貢献できます。
 </p>
 
 <p align="center">
@@ -242,7 +264,7 @@
 <div align="center">
   <h3>💡 "Never too late to start"</h3>
   <p>
-    <em>44歳からのIT挑戦。経験値 × 技術力で価値を創造します。</em>
+    <em>44歳からのIT挑戦。実務経験 × 技術力で価値を創造します。</em>
   </p>
 </div>
 
