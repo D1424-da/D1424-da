@@ -37,6 +37,30 @@
 
 ---
 
+#### 💡 開発プロセス
+
+このシステムは、以下のアプローチで開発しました：
+
+1. **実務経験からの課題抽出**
+   - 8年間の測量業務で実際に直面した課題を分析
+   - 業務フロー全体を理解し、システム要件を定義
+
+2. **生成AI（Claude/ChatGPT）の活用**
+   - 定義した要件をもとに、生成AIを使って効率的にコードを生成
+   - 現代的なツールを活用した開発手法を実践
+
+3. **コードレビューと学習**
+   - 生成されたコードを読解し、仕組みを理解
+   - 必要に応じてカスタマイズや改善を実施
+
+4. **技術書による理論補完**
+   - オライリー技術書で基礎理論を学習
+   - 実装の裏付けとなる知識を体系的に習得
+
+**学習姿勢**: 生成AIで作成したコードを理解するために、現在も継続して技術書で学習中です。
+
+---
+
 #### システム構成
 
 業務フローに沿った3段階の自動化を実現：
@@ -132,9 +156,11 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-### ツール
+### ツール・開発手法
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Claude AI](https://img.shields.io/badge/Claude%20AI-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 
 ---
 
@@ -145,9 +171,13 @@
 
 ### 学習スタイル
 
-- **理論と実践の両立**: オライリー技術書で理論を学び、即座にプロジェクトで実装
-- **実務課題の解決**: 測量業務の経験から、業務自動化システムを開発
+- **実務課題の特定**: 8年間の測量業務経験から、解決すべき課題を明確化
+- **生成AIの活用**: Claude/ChatGPTを使って効率的にコードを生成
+- **コードレビュー**: 生成されたコードの仕組みを理解し、カスタマイズ
+- **理論と実践の両立**: オライリー技術書で理論を学び、実装で検証
 - **システム設計力**: 複数の技術を統合し、業務フロー全体を最適化
+
+**現代的な開発手法**: 生成AIを活用しながら、技術書で基礎を固める学習アプローチを実践しています。
 
 ---
 
@@ -193,6 +223,13 @@
 <details>
 <summary><b>現在学習中の技術書</b></summary>
 
+### 学習アプローチ
+
+**生成AI × 技術書の相乗効果**
+- 生成AIで作成したコードを読解し、仕組みを理解
+- オライリー技術書で基礎理論を体系的に学習
+- 学んだ知識を即座にプロジェクトで実装・検証
+
 ### オライリー技術書（4冊）
 - 入門 Python 3
 - Pythonではじめる機械学習
@@ -216,6 +253,7 @@
 
 ## 🎯 Current Goals
 
+- 生成AIで作成したコードの完全理解
 - オライリー技術書の完読と実践
 - 業務自動化システムのポートフォリオ拡充
 - 業務効率化・システム開発分野での転職成功
@@ -270,7 +308,7 @@
 <div align="center">
   <h3>💡 "Never too late to start"</h3>
   <p>
-    <em>44歳からのIT挑戦。実務経験 × 技術力で価値を創造します。</em>
+    <em>44歳からのIT挑戦。実務経験 × 生成AI × 技術力で価値を創造します。</em>
   </p>
 </div>
 
