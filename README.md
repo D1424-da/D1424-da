@@ -24,105 +24,85 @@
 
 ### 📊 測量報告書作成自動化システム
 
-<p align="center">
-  <b>🔗 プロジェクトリポジトリ</b><br>
-  <a href="https://github.com/D1424-da/GPSSCAN">
-    <img src="https://img.shields.io/badge/🗺️%20GPSSCAN-写真リネーム自動化-2E9EF7?style=for-the-badge&logo=github" alt="GPSSCAN"/>
-  </a>
-  <a href="https://github.com/D1424-da/AI">
-    <img src="https://img.shields.io/badge/🤖%20AI-画像認識・自動分類-FF6F00?style=for-the-badge&logo=github" alt="AI"/>
-  </a>
-  <img src="https://img.shields.io/badge/📋%20VBA-報告書自動配置-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="VBA"/>
-</p>
-
 **8年間の測量業務経験から生まれた、業務全体を自動化する統合システム**
 
-[既存の説明...]
+#### 解決した課題
+
+測量業務において、以下の課題がありました：
+- 写真内容（遠景/近景など）を目視で判別する必要がある
+- 報告書に写真を1枚ずつ手作業で配置する必要がある
+- 測量画像の管理が煩雑で時間がかかる
+
+この作業は1件あたり**数時間かかっていました**。年間40〜80件の業務で大きな負担となっていたため、**3つのサブシステムを連携させた完全自動化システム**を開発しました。
+
+---
+
+#### 💡 開発プロセス
+
+このシステムは、以下のアプローチで開発しました：
+
+1. **実務経験からの課題抽出**
+   - 8年間の測量業務で実際に直面した課題を分析
+   - 業務フロー全体を理解し、システム要件を定義
+
+2. **生成AI（Claude/ChatGPT）の活用**
+   - 定義した要件をもとに、生成AIを使って効率的にコードを生成
+   - 現代的なツールを活用した開発手法を実践
+
+3. **コードレビューと学習**
+   - 生成されたコードを読解し、仕組みを理解
+   - 必要に応じてカスタマイズや改善を実施
+
+4. **技術書による理論補完**
+   - オライリー技術書で基礎理論を学習
+   - 実装の裏付けとなる知識を体系的に習得
+
+**学習姿勢**: 生成AIで作成したコードを理解するために、現在も継続して技術書で学習中です。
 
 ---
 
 #### システム構成
 
-**ステップ1: GPSSCAN（写真リネーム自動化）**
+業務フローに沿った3段階の自動化を実現：
 
-<table>
-<tr>
-<td width="70%">
+---
+
+**ステップ1: GPSSCAN（写真リネーム自動化）**
 
 SIMファイル（測量データ）とGPS情報から、写真を測量点に自動マッチング。体系的なファイル名に一括リネーム。
 
 **主な機能:**
 - SIMファイル解析（A01/A02/D00形式対応）
-- GPS座標の自動平面直角座標変換
-- ドラッグ&ドロップによる直感的UI
+- GPS座標の自動平面直角座標変換（EPSG:6669-6687）
+- ドラッグ&ドロップによる直感的なマッチングUI
 - 測量点・地番境界の地図可視化
 
-**技術:** `Python` `Tkinter` `Matplotlib` `pyproj`
+**技術:** `Python` `Tkinter` `Matplotlib` `pyproj` `pandas` `OpenCV`
 
-</td>
-<td width="30%" align="center">
-
-**📂 リポジトリ**
-
-<a href="https://github.com/D1424-da/GPSSCAN">
-  <img src="https://img.shields.io/badge/GPSSCAN-詳細を見る-181717?style=for-the-badge&logo=github&logoColor=white" alt="GPSSCAN Repository"/>
-</a>
-
-<br><br>
-
-**📖 README を読む**
-- コード解説
-- 使い方ガイド
-- 技術仕様
-
-<br>
-
-[⭐ Star をつける](https://github.com/D1424-da/GPSSCAN)
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://github.com/D1424-da/GPSSCAN">
+    <img src="https://img.shields.io/badge/🗺️_GPSSCAN-リポジトリを見る-2E9EF7?style=for-the-badge&logo=github&logoColor=white" height="45" alt="GPSSCAN Repository"/>
+  </a>
+</p>
 
 ---
 
 **ステップ2: AI画像認識（写真分類自動化）**
 
-<table>
-<tr>
-<td width="70%">
-
-機械学習により、写真の内容を自動判別。遠景/近景などを自動分類。
+機械学習により、写真の内容を自動判別。遠景/近景などを自動分類し、次のステップに必要な情報を付与。
 
 **技術的な取り組み:**
-- 192,000枚の画像データセット作成
+- 192,000枚の画像データセット作成（12クラス × 各16,000枚）
 - TensorFlow/Kerasによるディープラーニングモデル構築
 - データ拡張による汎化性能向上
 
 **技術:** `Python` `TensorFlow/Keras` `OpenCV` `scikit-learn`
 
-</td>
-<td width="30%" align="center">
-
-**📂 リポジトリ**
-
-<a href="https://github.com/D1424-da/AI">
-  <img src="https://img.shields.io/badge/AI-詳細を見る-181717?style=for-the-badge&logo=github&logoColor=white" alt="AI Repository"/>
-</a>
-
-<br><br>
-
-**📖 README を読む**
-- モデル構築過程
-- 学習データ詳細
-- 精度評価結果
-
-<br>
-
-[⭐ Star をつける](https://github.com/D1424-da/AI)
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://github.com/D1424-da/AI">
+    <img src="https://img.shields.io/badge/🤖_AI画像認識-リポジトリを見る-FF6F00?style=for-the-badge&logo=github&logoColor=white" height="45" alt="AI Repository"/>
+  </a>
+</p>
 
 ---
 
@@ -165,19 +145,9 @@ Excel VBAにより、整理された写真を報告書フォーマットに自�
 
 ### 📁 高速ファイル検索アプリ
 
-<p align="center">
-  <a href="https://github.com/D1424-da/file-search-app">
-    <img src="https://img.shields.io/badge/📂%20View%20Project-高速ファイル検索アプリ-2E9EF7?style=for-the-badge&logo=github&logoColor=white" alt="File Search App"/>
-  </a>
-</p>
-
-<table>
-<tr>
-<td width="65%">
-
 **課題:** 測量資料を紙ベースで保管していたため、保管場所と書類管理が大変
 
-**解決策:** PDFやワード、エクセルの内容を読み取りデータベース化し、検索文字でタイトルと内容の両方検索できるようにした。
+**解決策:** PDFやワード、エクセルの内容を読み取りデータベース化し、検索文字でタイトルと内容の両方検索できるようにしているため管理、保管がしやすくなった。
 
 **主な機能:**
 - PDF、Word、Excelファイルの自動テキスト抽出
@@ -185,41 +155,14 @@ Excel VBAにより、整理された写真を報告書フォーマットに自�
 - データベース化による効率的な文書管理
 - 直感的なGUIによる簡単操作
 
-**技術:** `Python` `Tkinter` `sqlite3` `PyPDF2`
-
-</td>
-<td width="35%" align="center">
-
-### 🔍 詳細はこちら
-
-<a href="https://github.com/D1424-da/file-search-app">
-  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=2E9EF7" height="40"/>
-</a>
-
-<br><br>
-
-**📖 このリポジトリで見られる内容:**
-- ✅ 完全なソースコード
-- ✅ アプリの使い方ガイド
-- ✅ 技術的な実装詳細
-- ✅ インストール手順
-
-<br>
-
-**💡 実務課題解決のプロセスを<br>コードで確認できます**
-
-</td>
-</tr>
-</table>
-
----
+**技術:** `Python` `Tkinter` `sqlite3` `PyPDF2` `python-docx` `openpyxl`
 
 <p align="center">
-  <b>🌟 もっとプロジェクトを見る</b><br>
-  <a href="https://github.com/D1424-da?tab=repositories">
-    <img src="https://img.shields.io/badge/すべてのリポジトリを見る-2E9EF7?style=for-the-badge&logo=github&logoColor=white" alt="All Repositories"/>
+  <a href="https://github.com/D1424-da/file-search-app">
+    <img src="https://img.shields.io/badge/📂_ファイル検索アプリ-リポジトリを見る-4285F4?style=for-the-badge&logo=github&logoColor=white" height="45" alt="File Search App Repository"/>
   </a>
 </p>
+
 ---
 
 ## 💻 Tech Stack
