@@ -1,19 +1,19 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,100:00A67E&height=120&section=header&text=IT%20Challenge%20from%2044!&fontSize=40&fontAlignY=40"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,100:00A67E&height=120&section=header&text=Real-world%20Problems%20%C3%97%20Tech%20Solutions&fontSize=35&fontAlignY=40"/>
 </p>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=2E9EF7&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B+I'm+Daisuke+Ikeda;44%E6%AD%B3%E3%81%8B%E3%82%89IT%E6%A5%AD%E7%95%8C%E3%81%AB%E6%8C%91%E6%88%A6%E4%B8%AD" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=2E9EF7&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B+I'm+Daisuke+Ikeda;24%E5%B9%B4%E3%81%AE%E5%AE%9F%E5%8B%99%E7%B5%8C%E9%A8%93+%C3%97+%E6%8A%80%E8%A1%93%E5%8A%9B%E3%81%A7%E4%BE%A1%E5%80%A4%E3%82%92%E5%89%B5%E9%80%A0" alt="Typing SVG" />
 </h1>
 
 <p align="center">
-  <b>24年間の実務経験 × プログラミング技術で価値を創造する</b><br>
+  <b>実務で培った問題発見力 × プログラミング技術</b><br>
   <sub>業務効率化・アプリ開発・システム自動化</sub>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/%F0%9F%9F%A2%20Status-Seeking%20Job%20Opportunities-success?style=for-the-badge" alt="Status"/>
-  <img src="https://img.shields.io/badge/Age-44-blue?style=for-the-badge" alt="Age"/>
+  <img src="https://img.shields.io/badge/Experience-24%20Years-blue?style=for-the-badge" alt="Experience"/>
   <img src="https://img.shields.io/badge/Focus-Automation%20%7C%20Apps%20%7C%20Efficiency-orange?style=for-the-badge" alt="Focus"/>
   <img src="https://komarev.com/ghpvc/?username=D1424-da&color=blueviolet&style=for-the-badge" alt="Profile views"/>
 </p>
@@ -34,6 +34,30 @@
 - 測量画像の管理が煩雑で時間がかかる
 
 この作業は1件あたり**数時間かかっていました**。年間40〜80件の業務で大きな負担となっていたため、**3つのサブシステムを連携させた完全自動化システム**を開発しました。
+
+---
+
+#### 💡 開発プロセス
+
+このシステムは、以下のアプローチで開発しました：
+
+1. **実務経験からの課題抽出**
+   - 8年間の測量業務で実際に直面した課題を分析
+   - 業務フロー全体を理解し、システム要件を定義
+
+2. **生成AI（Claude/ChatGPT）の活用**
+   - 定義した要件をもとに、生成AIを使って効率的にコードを生成
+   - 現代的なツールを活用した開発手法を実践
+
+3. **コードレビューと学習**
+   - 生成されたコードを読解し、仕組みを理解
+   - 必要に応じてカスタマイズや改善を実施
+
+4. **技術書による理論補完**
+   - オライリー技術書で基礎理論を学習
+   - 実装の裏付けとなる知識を体系的に習得
+
+**学習姿勢**: 生成AIで作成したコードを理解するために、現在も継続して技術書で学習中です。
 
 ---
 
@@ -146,9 +170,11 @@ Excel VBAにより、整理された写真を報告書フォーマットに自�
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-### ツール
+### ツール・開発手法
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Claude AI](https://img.shields.io/badge/Claude%20AI-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 
 ---
 
@@ -157,11 +183,15 @@ Excel VBAにより、整理された写真を報告書フォーマットに自�
 **公共職業訓練（2025年6月〜12月）**にてプログラミング技術を習得中。
 24年間の実務経験と技術力を掛け合わせ、企業の課題解決に貢献できる人材を目指しています。
 
-### 学習スタイル
+### 強み
 
-- **理論と実践の両立**: オライリー技術書で理論を学び、即座にプロジェクトで実装
-- **実務課題の解決**: 測量業務の経験から、業務自動化システムを開発
+- **実務課題の特定**: 8年間の測量業務経験から、解決すべき課題を明確化
+- **生成AIの活用**: Claude/ChatGPTを使って効率的にコードを生成
+- **コードレビュー**: 生成されたコードの仕組みを理解し、カスタマイズ
+- **理論と実践の両立**: オライリー技術書で理論を学び、実装で検証
 - **システム設計力**: 複数の技術を統合し、業務フロー全体を最適化
+
+**現代的な開発手法**: 生成AIを活用しながら、技術書で基礎を固める学習アプローチを実践しています。
 
 ---
 
@@ -207,6 +237,13 @@ Excel VBAにより、整理された写真を報告書フォーマットに自�
 <details>
 <summary><b>現在学習中の技術書</b></summary>
 
+### 学習アプローチ
+
+**生成AI × 技術書の相乗効果**
+- 生成AIで作成したコードを読解し、仕組みを理解
+- オライリー技術書で基礎理論を体系的に学習
+- 学んだ知識を即座にプロジェクトで実装・検証
+
 ### オライリー技術書（4冊）
 - 入門 Python 3
 - Pythonではじめる機械学習
@@ -230,6 +267,7 @@ Excel VBAにより、整理された写真を報告書フォーマットに自�
 
 ## 🎯 Current Goals
 
+- 生成AIで作成したコードの完全理解
 - オライリー技術書の完読と実践
 - 業務自動化システムのポートフォリオ拡充
 - 業務効率化・システム開発分野での転職成功
@@ -264,7 +302,7 @@ Excel VBAにより、整理された写真を報告書フォーマットに自�
 
 <p align="center">
   現在、<b>業務効率化・アプリ開発・システム自動化</b>分野での転職活動中です。<br>
-  44歳未経験ですが、24年間の実務経験と技術力で必ず貢献できます。
+  24年間の実務経験と技術力で、企業の課題解決に貢献します。
 </p>
 
 <p align="center">
@@ -282,9 +320,9 @@ Excel VBAにより、整理された写真を報告書フォーマットに自�
 ---
 
 <div align="center">
-  <h3>💡 "Never too late to start"</h3>
+  <h3>💡 "Experience Meets Technology"</h3>
   <p>
-    <em>44歳からのIT挑戦。実務経験 × 技術力で価値を創造します。</em>
+    <em>24年の実務経験 × プログラミング技術で価値を創造します。</em>
   </p>
 </div>
 
