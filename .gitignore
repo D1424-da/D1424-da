@@ -1,0 +1,16 @@
+# MT5 EA Files
+*.ex5
+*.log
+
+# Backup files
+*_BACKUP_*.mq5
+
+# Data files
+Data/
+
+# Test results
+tester/
+
+# IDE files
+.vscode/
+.idea/
