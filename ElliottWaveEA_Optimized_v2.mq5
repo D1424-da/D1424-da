@@ -4,8 +4,12 @@
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2025"
 #property link      ""
-#property version   "2.02"
-#property description "エリオット波動EA (最適化版 v2.0.2)"
+#property version   "2.03"
+#property description "エリオット波動EA (最適化版 v2.0.3)"
+#property description "v2.0.3: XM Micro口座完全対応"
+#property description "- 契約サイズを動的取得（Standard/Micro両対応）"
+#property description "- 証拠金計算の正確性向上"
+#property description ""
 #property description "v2.0.2: 複数の重大バグを修正（自動売買として正常動作）"
 #property description "- OnTick()の複数タイムフレーム対応（エントリーチャンス逃さない）"
 #property description "- タイムフレーム間の整合性強化"
@@ -833,16 +837,18 @@ double CalculateLotSize(double riskPercent, double slPips) {
    lotSize = MathFloor(lotSize / lotStep) * lotStep;
    lotSize = MathMax(minLot, MathMin(maxLot, lotSize));
 
-   // 証拠金チェック
+   // 証拠金チェック（Micro口座対応）
    double freeMargin = AccountInfoDouble(ACCOUNT_MARGIN_FREE);
-   double requiredMargin = lotSize * 100000 * 0.04;  // レバレッジ25倍想定
+   double contractSize = SymbolInfoDouble(_Symbol, SYMBOL_TRADE_CONTRACT_SIZE);  // ★ 動的取得
+   double requiredMargin = lotSize * contractSize * 0.04;  // レバレッジ25倍想定
 
    if(requiredMargin > freeMargin * 0.5) {
-      lotSize = (freeMargin * 0.5) / (100000 * 0.04);
+      lotSize = (freeMargin * 0.5) / (contractSize * 0.04);  // ★ 動的使用
       lotSize = MathFloor(lotSize / lotStep) * lotStep;
       lotSize = MathMax(minLot, lotSize);
       if(EnableDebugMode) {
          Print("⚠️ 証拠金制限によりロット調整: ", lotSize);
+         Print("   契約サイズ: ", contractSize, " 必要証拠金: ", requiredMargin);
       }
    }
 
