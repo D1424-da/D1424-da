@@ -4,8 +4,13 @@
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2025"
 #property link      ""
-#property version   "2.01"
-#property description "エリオット波動EA (最適化版 v2.0.1)"
+#property version   "2.02"
+#property description "エリオット波動EA (最適化版 v2.0.2)"
+#property description "v2.0.2: 複数の重大バグを修正（自動売買として正常動作）"
+#property description "- OnTick()の複数タイムフレーム対応（エントリーチャンス逃さない）"
+#property description "- タイムフレーム間の整合性強化"
+#property description "- マジックナンバーの定数化"
+#property description ""
 #property description "v2.0.1: 重大なTP計算バグを修正"
 #property description "- SL調整後のTP計算を修正（R:R比率が正確に）"
 #property description "- デバッグ出力を強化（R:R比率表示）"
@@ -60,6 +65,9 @@ input bool CollectTradeData = true;         // トレードデータ収集
 // ========================================
 CTrade trade;
 
+// マジックナンバー定数
+const int EA_MAGIC_NUMBER = 20250327;
+
 // 波動状態
 enum TREND_STATE {
    TREND_STATE_UPTREND,
@@ -106,7 +114,7 @@ double g_pointToPips = 1.0;
 //+------------------------------------------------------------------+
 int OnInit() {
    // マジックナンバー設定
-   trade.SetExpertMagicNumber(20250327);
+   trade.SetExpertMagicNumber(EA_MAGIC_NUMBER);
    trade.SetDeviationInPoints(10);
 
    // ポイント→Pips変換係数の計算
@@ -147,65 +155,87 @@ int OnInit() {
 }
 
 //+------------------------------------------------------------------+
-//| Expert tick関数（最適化版）                                      |
+//| Expert tick関数（最適化版v2 - 複数タイムフレーム対応）            |
 //+------------------------------------------------------------------+
 void OnTick() {
-   // 新しいバーチェック
-   static datetime lastBarTime = 0;
-   datetime currentBarTime = iTime(_Symbol, TimeframeMonitor, 0);
+   // ★★★ 複数タイムフレームの新バーチェック ★★★
+   static datetime lastMonitorBarTime = 0;
+   static datetime lastExecuteBarTime = 0;
 
-   if(currentBarTime == lastBarTime) {
-      // 既存ポジションのトレーリングストップのみ処理
-      if(UseTrailingStop) {
-         ManageTrailingStop();
-      }
-      return;
+   datetime currentMonitorBar = iTime(_Symbol, TimeframeMonitor, 0);
+   datetime currentExecuteBar = iTime(_Symbol, TimeframeExecute, 0);
+   datetime currentTime = TimeCurrent();
+
+   // トレーリングストップは毎ティック実行
+   if(UseTrailingStop) {
+      ManageTrailingStop();
    }
 
-   lastBarTime = currentBarTime;
+   // === TimeframeMonitorの新バーで波動検出 ===
+   bool monitorBarChanged = (currentMonitorBar != lastMonitorBarTime);
 
-   // データ更新（一定間隔ごと）
-   datetime currentTime = TimeCurrent();
-   if(currentTime - g_lastUpdateTime > g_updateIntervalSeconds) {
+   if(monitorBarChanged) {
+      // データ更新
       if(!UpdateIndicatorData()) {
          if(EnableDebugMode) Print("⚠️ データ更新失敗");
+         lastMonitorBarTime = currentMonitorBar;  // 次回リトライのため更新
          return;
       }
-      g_lastUpdateTime = currentTime;
-   }
 
-   // エントリー間隔チェック
-   if(currentTime - g_lastEntryTime < MinEntryIntervalSeconds) {
-      return;
-   }
-
-   // ポジション数チェック
-   if(!CanOpenNewPosition()) {
-      return;
-   }
-
-   // === メインロジック ===
-
-   // 1. 押し安値・戻り高値の更新
-   UpdatePushLowPullbackHigh();
-
-   // 2. トレンド転換チェック（第1波検出）
-   if(CheckTrendReversal()) {
-      if(EnableDebugMode) Print("🔄 トレンド転換検出 - 第1波確定");
-   }
-
-   // 3. 第2波検証
-   if(g_wave1Confirmed && !g_wave2Confirmed) {
-      if(ValidateWave2Retracement()) {
-         if(EnableDebugMode) Print("📊 第2波確定 - 第3波待機モードON");
+      if(EnableDebugMode) {
+         Print("📊 ", EnumToString(TimeframeMonitor), " 新バー検出");
       }
+
+      // 1. 押し安値・戻り高値の更新
+      UpdatePushLowPullbackHigh();
+
+      // 2. トレンド転換チェック（第1波検出）
+      if(CheckTrendReversal()) {
+         if(EnableDebugMode) Print("🔄 トレンド転換検出 - 第1波確定");
+      }
+
+      // 3. 第2波検証
+      if(g_wave1Confirmed && !g_wave2Confirmed) {
+         if(ValidateWave2Retracement()) {
+            if(EnableDebugMode) Print("📊 第2波確定 - 第3波待機モードON");
+         }
+      }
+
+      lastMonitorBarTime = currentMonitorBar;
    }
 
-   // 4. 第3波エントリー
-   if(g_waitingForWave3Entry && g_wave1Confirmed && g_wave2Confirmed) {
-      if(CheckWave3EntryConditions()) {
-         ExecuteWave3Entry();
+   // === TimeframeExecuteの新バーでエントリー判定 ===
+   bool executeBarChanged = (currentExecuteBar != lastExecuteBarTime);
+
+   if(executeBarChanged) {
+      if(EnableDebugMode) {
+         Print("🎯 ", EnumToString(TimeframeExecute), " 新バー検出 - エントリーチェック");
       }
+
+      // エントリー間隔チェック
+      if(currentTime - g_lastEntryTime < MinEntryIntervalSeconds) {
+         if(EnableDebugMode) {
+            Print("⏰ エントリー間隔制限中: あと ",
+                  (MinEntryIntervalSeconds - (currentTime - g_lastEntryTime)), " 秒");
+         }
+         lastExecuteBarTime = currentExecuteBar;
+         return;
+      }
+
+      // ポジション数チェック
+      if(!CanOpenNewPosition()) {
+         lastExecuteBarTime = currentExecuteBar;
+         return;
+      }
+
+      // 第3波エントリー条件チェック
+      if(g_waitingForWave3Entry && g_wave1Confirmed && g_wave2Confirmed) {
+         if(CheckWave3EntryConditions()) {
+            ExecuteWave3Entry();
+         }
+      }
+
+      lastExecuteBarTime = currentExecuteBar;
    }
 }
 
@@ -449,49 +479,76 @@ bool ValidateWave2Retracement() {
 }
 
 //+------------------------------------------------------------------+
-//| 第3波エントリー条件チェック（最適化版）                            |
+//| 第3波エントリー条件チェック（最適化版v2 - タイムフレーム整合性強化）|
 //+------------------------------------------------------------------+
 bool CheckWave3EntryConditions() {
    if(!g_waitingForWave3Entry || !g_wave1Confirmed || !g_wave2Confirmed) {
       return false;
    }
 
-   // 実行タイムフレームの価格を取得
-   double currentPrice = iClose(_Symbol, TimeframeExecute, 0);
-   double previousPrice = iClose(_Symbol, TimeframeExecute, 1);
-   double price2BarsAgo = iClose(_Symbol, TimeframeExecute, 2);
+   // ★★★ 両方のタイムフレームの価格を取得 ★★★
+   double monitorCurrentPrice = iClose(_Symbol, TimeframeMonitor, 0);
+   double executeCurrentPrice = iClose(_Symbol, TimeframeExecute, 0);
+   double executePreviousPrice = iClose(_Symbol, TimeframeExecute, 1);
+   double executePrice2BarsAgo = iClose(_Symbol, TimeframeExecute, 2);
 
    // 上昇トレンドの第3波エントリー
    if(g_currentTrendState == TREND_STATE_UPTREND) {
-      // 第2波終値より上で、2本連続上昇
-      bool condition1 = currentPrice > g_wave2EndPrice;
-      bool condition2 = currentPrice > previousPrice;
-      bool condition3 = previousPrice > price2BarsAgo;
+      // ★ Monitor TFでも第2波を上回っていることを確認 ★
+      bool monitorCondition = monitorCurrentPrice > g_wave2EndPrice;
 
-      if(condition1 && condition2 && condition3) {
+      // Execute TFで連続上昇を確認
+      bool executeCondition1 = executeCurrentPrice > g_wave2EndPrice;
+      bool executeCondition2 = executeCurrentPrice > executePreviousPrice;
+      bool executeCondition3 = executePreviousPrice > executePrice2BarsAgo;
+
+      // ★ すべての条件を満たす必要がある ★
+      if(monitorCondition && executeCondition1 && executeCondition2 && executeCondition3) {
          if(EnableDebugMode) {
-            Print("✅ 第3波買いエントリー条件成立");
-            Print("   第2波終値: ", g_wave2EndPrice);
-            Print("   2本前: ", price2BarsAgo, " → 前回: ", previousPrice, " → 現在: ", currentPrice);
+            Print("✅✅✅ 第3波買いエントリー条件成立");
+            Print("   [", EnumToString(TimeframeMonitor), "] 現在価格: ", monitorCurrentPrice,
+                  " > 第2波終値: ", g_wave2EndPrice);
+            Print("   [", EnumToString(TimeframeExecute), "] 2本前: ", executePrice2BarsAgo,
+                  " → 前回: ", executePreviousPrice, " → 現在: ", executeCurrentPrice);
          }
          return true;
+      }
+
+      // デバッグ: 条件が満たされない理由を表示
+      if(EnableDebugMode && (executeCondition1 && executeCondition2 && executeCondition3)) {
+         if(!monitorCondition) {
+            Print("⚠️ Monitor TFで第2波を下回っている: ", monitorCurrentPrice, " <= ", g_wave2EndPrice);
+         }
       }
    }
 
    // 下降トレンドの第3波エントリー
    if(g_currentTrendState == TREND_STATE_DOWNTREND) {
-      // 第2波終値より下で、2本連続下降
-      bool condition1 = currentPrice < g_wave2EndPrice;
-      bool condition2 = currentPrice < previousPrice;
-      bool condition3 = previousPrice < price2BarsAgo;
+      // ★ Monitor TFでも第2波を下回っていることを確認 ★
+      bool monitorCondition = monitorCurrentPrice < g_wave2EndPrice;
 
-      if(condition1 && condition2 && condition3) {
+      // Execute TFで連続下降を確認
+      bool executeCondition1 = executeCurrentPrice < g_wave2EndPrice;
+      bool executeCondition2 = executeCurrentPrice < executePreviousPrice;
+      bool executeCondition3 = executePreviousPrice < executePrice2BarsAgo;
+
+      // ★ すべての条件を満たす必要がある ★
+      if(monitorCondition && executeCondition1 && executeCondition2 && executeCondition3) {
          if(EnableDebugMode) {
-            Print("✅ 第3波売りエントリー条件成立");
-            Print("   第2波終値: ", g_wave2EndPrice);
-            Print("   2本前: ", price2BarsAgo, " → 前回: ", previousPrice, " → 現在: ", currentPrice);
+            Print("✅✅✅ 第3波売りエントリー条件成立");
+            Print("   [", EnumToString(TimeframeMonitor), "] 現在価格: ", monitorCurrentPrice,
+                  " < 第2波終値: ", g_wave2EndPrice);
+            Print("   [", EnumToString(TimeframeExecute), "] 2本前: ", executePrice2BarsAgo,
+                  " → 前回: ", executePreviousPrice, " → 現在: ", executeCurrentPrice);
          }
          return true;
+      }
+
+      // デバッグ: 条件が満たされない理由を表示
+      if(EnableDebugMode && (executeCondition1 && executeCondition2 && executeCondition3)) {
+         if(!monitorCondition) {
+            Print("⚠️ Monitor TFで第2波を上回っている: ", monitorCurrentPrice, " >= ", g_wave2EndPrice);
+         }
       }
    }
 
@@ -806,7 +863,7 @@ bool CanOpenNewPosition() {
    for(int i = 0; i < PositionsTotal(); i++) {
       if(PositionSelectByTicket(PositionGetTicket(i))) {
          if(PositionGetString(POSITION_SYMBOL) == _Symbol &&
-            PositionGetInteger(POSITION_MAGIC) == 20250327) {
+            PositionGetInteger(POSITION_MAGIC) == EA_MAGIC_NUMBER) {  // ★ 定数使用
             openPositions++;
          }
       }
@@ -834,7 +891,7 @@ void ManageTrailingStop() {
       if(!PositionSelectByTicket(ticket)) continue;
 
       if(PositionGetString(POSITION_SYMBOL) != _Symbol) continue;
-      if(PositionGetInteger(POSITION_MAGIC) != 20250327) continue;
+      if(PositionGetInteger(POSITION_MAGIC) != EA_MAGIC_NUMBER) continue;  // ★ 定数使用
 
       double positionOpenPrice = PositionGetDouble(POSITION_PRICE_OPEN);
       double positionSL = PositionGetDouble(POSITION_SL);
