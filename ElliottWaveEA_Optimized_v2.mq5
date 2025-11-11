@@ -4,14 +4,16 @@
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2025"
 #property link      ""
-#property version   "2.00"
-#property description "エリオット波動EA (最適化版 v2.0)"
-#property description "主な改善点："
+#property version   "2.01"
+#property description "エリオット波動EA (最適化版 v2.0.1)"
+#property description "v2.0.1: 重大なTP計算バグを修正"
+#property description "- SL調整後のTP計算を修正（R:R比率が正確に）"
+#property description "- デバッグ出力を強化（R:R比率表示）"
+#property description ""
+#property description "v2.0主な改善点："
 #property description "- SL/TP検証の簡素化と信頼性向上"
 #property description "- エントリーロジックの統一"
 #property description "- 波動検出の最適化"
-#property description "- パフォーマンス改善"
-#property description "- エラーハンドリング強化"
 
 #include <Trade\Trade.mqh>
 
@@ -514,7 +516,7 @@ void ExecuteWave3Entry() {
 }
 
 //+------------------------------------------------------------------+
-//| 買い注文実行関数（最適化版）                                      |
+//| 買い注文実行関数（最適化版・修正）                                |
 //+------------------------------------------------------------------+
 void ExecuteBuyOrder() {
    // 現在価格を取得
@@ -525,9 +527,10 @@ void ExecuteBuyOrder() {
    double slDistance = MinSLPips * _Point * g_pointToPips;
    double sl = g_wave2EndPrice - slDistance;
 
-   // SL距離のチェック
+   // SL距離のチェックと調整
    double actualSLDistance = ask - sl;
    double maxSLDistance = MaxSLPips * _Point * g_pointToPips;
+   double minDistance = MinSLPips * _Point * g_pointToPips;
 
    if(actualSLDistance > maxSLDistance) {
       sl = ask - maxSLDistance;
@@ -535,14 +538,17 @@ void ExecuteBuyOrder() {
          Print("⚠️ SL距離を最大値に調整: ", maxSLDistance/_Point/g_pointToPips, " pips");
       }
    }
-
-   // 最小距離の確保
-   double minDistance = MinSLPips * _Point * g_pointToPips;
-   if(actualSLDistance < minDistance) {
+   else if(actualSLDistance < minDistance) {
       sl = ask - minDistance;
+      if(EnableDebugMode) {
+         Print("⚠️ SL距離を最小値に調整: ", minDistance/_Point/g_pointToPips, " pips");
+      }
    }
 
-   // TP計算
+   // ★★★ 重要：SL調整後に距離を再計算 ★★★
+   actualSLDistance = ask - sl;
+
+   // TP計算（調整後のSL距離を使用）
    double tpDistance = actualSLDistance * RiskRewardRatio;
    double tp = ask + tpDistance;
 
@@ -551,6 +557,9 @@ void ExecuteBuyOrder() {
    if(tpDistance < minTPDistance) {
       tp = ask + minTPDistance;
       tpDistance = minTPDistance;
+      if(EnableDebugMode) {
+         Print("⚠️ TP距離を最小値に調整: ", minTPDistance/_Point/g_pointToPips, " pips");
+      }
    }
 
    // 正規化
@@ -558,8 +567,9 @@ void ExecuteBuyOrder() {
    sl = NormalizeDouble(sl, digits);
    tp = NormalizeDouble(tp, digits);
 
-   // ロットサイズ計算
+   // ★★★ 修正：正規化後の実際の距離で計算 ★★★
    double slPips = (ask - sl) / _Point / g_pointToPips;
+   double tpPips = (tp - ask) / _Point / g_pointToPips;
    double lots = CalculateLotSize(RiskPercentAligned, slPips);
 
    if(lots <= 0) {
@@ -575,20 +585,26 @@ void ExecuteBuyOrder() {
 
    // 注文実行
    if(EnableDebugMode) {
-      Print("買い注文パラメータ:");
-      Print("  Ask: ", ask, " SL: ", sl, " (", slPips, " pips) TP: ", tp, " (", tpDistance/_Point/g_pointToPips, " pips)");
+      Print("=== 買い注文実行 ===");
+      Print("  Ask: ", ask);
+      Print("  SL: ", sl, " (距離: ", slPips, " pips)");
+      Print("  TP: ", tp, " (距離: ", tpPips, " pips)");
+      Print("  R:R比率: 1:", DoubleToString(tpPips/slPips, 2));
       Print("  Lot: ", lots);
    }
 
    bool result = trade.Buy(lots, _Symbol, 0, sl, tp, "Elliott Wave 3");
 
-   if(!result) {
+   if(result && trade.ResultRetcode() == TRADE_RETCODE_DONE) {
+      Print("✅ 買い注文成功: Ticket=", trade.ResultOrder());
+   }
+   else {
       Print("❌ 買い注文失敗: ", trade.ResultRetcodeDescription());
    }
 }
 
 //+------------------------------------------------------------------+
-//| 売り注文実行関数（最適化版）                                      |
+//| 売り注文実行関数（最適化版・修正）                                |
 //+------------------------------------------------------------------+
 void ExecuteSellOrder() {
    // 現在価格を取得
@@ -599,9 +615,10 @@ void ExecuteSellOrder() {
    double slDistance = MinSLPips * _Point * g_pointToPips;
    double sl = g_wave2EndPrice + slDistance;
 
-   // SL距離のチェック
+   // SL距離のチェックと調整
    double actualSLDistance = sl - bid;
    double maxSLDistance = MaxSLPips * _Point * g_pointToPips;
+   double minDistance = MinSLPips * _Point * g_pointToPips;
 
    if(actualSLDistance > maxSLDistance) {
       sl = bid + maxSLDistance;
@@ -609,14 +626,17 @@ void ExecuteSellOrder() {
          Print("⚠️ SL距離を最大値に調整: ", maxSLDistance/_Point/g_pointToPips, " pips");
       }
    }
-
-   // 最小距離の確保
-   double minDistance = MinSLPips * _Point * g_pointToPips;
-   if(actualSLDistance < minDistance) {
+   else if(actualSLDistance < minDistance) {
       sl = bid + minDistance;
+      if(EnableDebugMode) {
+         Print("⚠️ SL距離を最小値に調整: ", minDistance/_Point/g_pointToPips, " pips");
+      }
    }
 
-   // TP計算
+   // ★★★ 重要：SL調整後に距離を再計算 ★★★
+   actualSLDistance = sl - bid;
+
+   // TP計算（調整後のSL距離を使用）
    double tpDistance = actualSLDistance * RiskRewardRatio;
    double tp = bid - tpDistance;
 
@@ -625,6 +645,9 @@ void ExecuteSellOrder() {
    if(tpDistance < minTPDistance) {
       tp = bid - minTPDistance;
       tpDistance = minTPDistance;
+      if(EnableDebugMode) {
+         Print("⚠️ TP距離を最小値に調整: ", minTPDistance/_Point/g_pointToPips, " pips");
+      }
    }
 
    // 正規化
@@ -632,8 +655,9 @@ void ExecuteSellOrder() {
    sl = NormalizeDouble(sl, digits);
    tp = NormalizeDouble(tp, digits);
 
-   // ロットサイズ計算
+   // ★★★ 修正：正規化後の実際の距離で計算 ★★★
    double slPips = (sl - bid) / _Point / g_pointToPips;
+   double tpPips = (bid - tp) / _Point / g_pointToPips;
    double lots = CalculateLotSize(RiskPercentAligned, slPips);
 
    if(lots <= 0) {
@@ -649,14 +673,20 @@ void ExecuteSellOrder() {
 
    // 注文実行
    if(EnableDebugMode) {
-      Print("売り注文パラメータ:");
-      Print("  Bid: ", bid, " SL: ", sl, " (", slPips, " pips) TP: ", tp, " (", tpDistance/_Point/g_pointToPips, " pips)");
+      Print("=== 売り注文実行 ===");
+      Print("  Bid: ", bid);
+      Print("  SL: ", sl, " (距離: ", slPips, " pips)");
+      Print("  TP: ", tp, " (距離: ", tpPips, " pips)");
+      Print("  R:R比率: 1:", DoubleToString(tpPips/slPips, 2));
       Print("  Lot: ", lots);
    }
 
    bool result = trade.Sell(lots, _Symbol, 0, sl, tp, "Elliott Wave 3");
 
-   if(!result) {
+   if(result && trade.ResultRetcode() == TRADE_RETCODE_DONE) {
+      Print("✅ 売り注文成功: Ticket=", trade.ResultOrder());
+   }
+   else {
       Print("❌ 売り注文失敗: ", trade.ResultRetcodeDescription());
    }
 }
